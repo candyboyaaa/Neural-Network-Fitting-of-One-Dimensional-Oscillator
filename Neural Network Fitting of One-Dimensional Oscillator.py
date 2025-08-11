@@ -197,7 +197,7 @@ print(f"重叠积分: {overlap}")
 
 # 绘制第一个网络的损失函数
 plt.figure(figsize=(10,5))
-plt.plot(losses1, label='Loss1', color='blue')
+plt.plot(losses1, label='energy', color='blue')
 plt.title('Energy for neural network fitting of the ground state of one-dimensional oscillator')
 plt.xlabel('Steps')
 plt.ylabel('Energy')
@@ -207,7 +207,7 @@ plt.show()
 
 # 绘制第二个网络的损失函数
 plt.figure(figsize=(10,5))
-plt.plot(losses2, label='Loss2', color='red')
+plt.plot(losses2, label='energy', color='red')
 plt.title('Energy for neural network fitting of excited states of one-dimensional oscillator')
 plt.xlabel('Steps')
 plt.ylabel('Energy')
